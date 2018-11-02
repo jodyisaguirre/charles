@@ -30,6 +30,7 @@ height: 50%;
 width: 100%;
 
 
+
 }
 .Valet{
 
@@ -116,15 +117,15 @@ margin-right: 15%;
 }
 .container4{
 
-  height:40%;
-  width: 50%;
+  height:30%;
+  width: 80%;
   background-color: Maroon;
 
   display: flex;
   justify-content: center;
   align-items: center;
   border-style: solid;
-  margin-bottom: 10%;
+  margin-bottom: 20%;
 
 }
 .container4:hover{
