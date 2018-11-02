@@ -1,0 +1,68 @@
+var arr = [{"name": "spencer"},{"name": "nmuta"},{"name": "sean"}]
+var bigger = [{"name": "spencer","occupation" : "resident instructor"},{"name": "nmuta","occupation" : "lead instructor"},{"name": "sean","occupation" : "instructor"}]
+
+for (i = 0; i < arr.length; i++){
+  let main = document.queryselector("#myDiv")
+  let li = document.createElement ("li")
+  main.appendChild(li)
+  li.innerHTML = arr[i].name
+}
+
+for (i = 0; i < arr.length; i++){
+  let main = document. queryselector("#myDiv")
+  let h3 = document.createElement ("h3")
+  let p = document.createElement ("p")
+  main.appendChild(h3)
+  main.appendChild(p)
+  h3.innerHTML = bigger[i].name
+  h3.innerHTML = bigger[i].occupation
+  p.setAttribute ("class","paragraph")
+  h3.style.color = "blue"
+  p.style.backgroudColor = "orange"
+  img.src = ""
+}
+document.queryselectorAll('p')
+
+
+numta
+
+let bodi = document.getElemntsByTagName("body")[0]
+let bodi = documetn.querySelector("body");
+
+for(let i =0; i <data.length; i++){
+let divvy= document.createElement("div");
+divvy.innerText = data[i].name;
+divvy.classList.add("special")
+bodi.appendChild(divvy);
+
+let ima = document.createElement("img")
+ima.setAttribute("src", data[i].url);
+divvy.appendChild(ima)
+}
+
+
+css style
+
+.special{
+  background-color: goldenrod;
+}
+
+
+event listener
+let btn = document.querySelector("button");
+
+btn.addEventListener("click", function(){let bodi = document.getElemntsByTagName("body")[0]
+let bodi = documetn.querySelector("body");
+
+for(let i =0; i <data.length; i++){
+let divvy= document.createElement("div");
+divvy.innerText = data[i].name;
+divvy.classList.add("special")
+bodi.appendChild(divvy);
+
+let ima = document.createElement("img")
+ima.setAttribute("src", data[i].url);
+divvy.appendChild(ima)
+}
+    alert("I was clicked")
+})
