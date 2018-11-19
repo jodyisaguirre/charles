@@ -146,7 +146,7 @@ margin-right: 15%;
   margin-left: 15%;
   margin-right: 15%;
   color: maroon;
-  margin-bottom: 75%;
+  margin-bottom: %;
 
 }
 input[type=text] {
@@ -192,7 +192,7 @@ textarea [name=message]{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:black;
+    background-color: beige;
     color: black;
     text-align: left;
     height: 9%;
