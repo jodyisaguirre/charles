@@ -146,6 +146,7 @@ margin-right: 15%;
   margin-left: 15%;
   margin-right: 15%;
   color: maroon;
+  margin-bottom: 75%;
 
 }
 input[type=text] {
@@ -156,6 +157,25 @@ input[type=text] {
     border: 2px solid Maroon;
     border-radius: 4px;
   }
+
+  input[type=email] {
+
+      padding: 12px 20px;
+      margin: 6px 0;
+      box-sizing: border-box;
+      border: 2px solid Maroon;
+      border-radius: 4px;
+    }
+
+textarea [name=message]{
+
+        padding: 12px 20px;
+        margin: 6px 0;
+        box-sizing: border-box;
+        border: 2px solid Maroon;
+        border-radius: 4px;
+      }
+
 .button{
   justify-content: flex-start;
   height: 65%;
@@ -172,7 +192,7 @@ input[type=text] {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: beige;
+    background-color:black;
     color: black;
     text-align: left;
     height: 9%;
